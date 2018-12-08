@@ -1,0 +1,33 @@
+#include<stdio.h>
+int main()
+{
+    int n,r,c=0,temp;
+   printf("enter a number");
+   scanf("%d",&n);
+   temp=n;
+   while(n>0)
+   {
+    r=n%10;
+    n=n/10;
+    c=c+r*r*r;
+
+
+   }
+   printf("number is=%d",c);
+   if(temp==c)
+   {
+    printf("number is armstrong");
+
+
+   }
+   else
+   {
+    printf("number is not armstrong");
+
+
+   }
+   return 0;
+
+
+
+}
