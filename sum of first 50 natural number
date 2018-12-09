@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+ int n=1,sum=0;
+  while(n<=50)
+  {
+    sum=sum+n;
+    n++;
+    }
+    printf("sum of first 50 natural number is =%d",sum);
+    return 0;
+    }
