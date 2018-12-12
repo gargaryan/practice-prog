@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+    int i,hcf,num_1,num_2;
+    printf("enter  two number ");
+    scanf("%d%d",&num_1,&num_2);
+    for(i=1;i<=num_1||i<=num_2;i++)
+    {
+        if(num_1%i==0&&num_2%i==0)
+
+        {
+                hcf =i;
+
+        }
+
+
+    }printf("hcf of two number is =%d  ",hcf);
+
+
+return 0;
+}
