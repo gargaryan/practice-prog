@@ -1,0 +1,29 @@
+#include<stdio.h>
+int main()
+{    int  array[10],ctr=0,i=0,num;
+    printf("enter the list of number\n");
+    for(i=0;i<10;i++)
+    {
+        scanf("%d",&array[i]);
+
+    }
+    printf("\nenter a given number through which you have to check how many times given number is in list");
+    scanf("%d",&num);
+    for(i=0;i<10;i++)
+    {
+        if(array[i]==num)
+    {
+        ctr++;
+
+    }
+
+    }
+
+    printf("The %d is in list are %d  times ",num,ctr);
+    return 0;
+
+
+
+
+
+}
